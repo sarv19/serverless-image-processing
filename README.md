@@ -232,7 +232,38 @@ Refer to the CloudFormation template and Lambda function code for detailed infor
 
 ## Frequently Asked Questions (FAQ)
 
-[Anticipate and answer common questions users might have]
+### 1. **What is the Serverless Image Handler?**
+   - The Serverless Image Handler is a scalable and serverless solution for processing and delivering images. It leverages AWS Lambda, Amazon S3, CloudFront, API Gateway, Rekognition, and Secrets Manager to provide efficient image processing features.
+
+### 2. **How do I deploy the Serverless Image Handler?**
+   - Deployment is facilitated through an AWS CloudFormation template. Simply upload the template to an S3 bucket and launch it in the AWS CloudFormation console. Detailed deployment instructions can be found in the [Installation](#installation) section of this README.
+
+### 3. **What image processing features does it support?**
+   - The Serverless Image Handler supports features such as smart cropping, content moderation, and more. You can customize and extend the functionality by modifying the Lambda function code.
+
+### 4. **Can I enable signature validation for enhanced security?**
+   - Yes, signature validation can be enabled by setting the `EnableSignature` parameter to 'Yes' during CloudFormation stack deployment. This feature utilizes AWS Secrets Manager to secure the image processing workflow.
+
+### 5. **How can I integrate my own UI with the Serverless Image Handler?**
+   - The Serverless Image Handler provides an optional demo UI that you can deploy alongside the solution. Alternatively, you can integrate your own UI by making requests to the API Gateway endpoint, specifying the desired image processing features.
+
+### 6. **Is the Serverless Image Handler suitable for production use?**
+   - Yes, the solution is designed to be production-ready. However, it's recommended to thoroughly test the deployment in a staging environment before deploying in a production setting. Review the [Testing and Optimization](#testing-and-optimization) section for best practices.
+
+### 7. **Can I contribute to the development of the Serverless Image Handler?**
+   - Absolutely! We welcome contributions from the community. Please refer to the [Contributing Guidelines](CONTRIBUTING.md) for more information on how to get involved.
+
+### 8. **What are the future plans for the Serverless Image Handler?**
+   - Check the [Roadmap](#roadmap) section for details on upcoming features and improvements. We are committed to continuously enhancing the functionality of the Serverless Image Handler based on user feedback and evolving requirements.
+
+### 9. **How can I get support or report issues?**
+   - For support or to report issues, please create a GitHub issue in this repository. You can also join our community forum [here](#) for discussions and assistance.
+
+### 10. **Is there a cost associated with using the Serverless Image Handler?**
+   - AWS services used by the Serverless Image Handler may have associated costs. Review the AWS Pricing page for each service to understand the cost implications. The solution is designed to be cost-effective with efficient serverless architecture.
+
+Feel free to reach out if you have additional questions or need further clarification.
+
 
 ## Roadmap
 
