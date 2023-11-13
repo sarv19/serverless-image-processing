@@ -16,7 +16,7 @@ Whether you're working on a content-heavy website, a mobile app, or any project 
   - [Installation](#installation)
 - [Architecture](#architecture)
 - [Usage](#usage)
-  - [Configuration](#configuration)
+- [Configuration](#configuration)
 - [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq)
 - [Roadmap](#roadmap)
 
@@ -248,22 +248,15 @@ Refer to the CloudFormation template and Lambda function code for detailed infor
    - The Serverless Image Handler provides an optional demo UI that you can deploy alongside the solution. Alternatively, you can integrate your own UI by making requests to the API Gateway endpoint, specifying the desired image processing features.
 
 ### 6. **Is the Serverless Image Handler suitable for production use?**
-   - Yes, the solution is designed to be production-ready. However, it's recommended to thoroughly test the deployment in a staging environment before deploying in a production setting. Review the [Testing and Optimization](#testing-and-optimization) section for best practices.
+   - Yes, the solution is designed to be production-ready. However, it's recommended to thoroughly test the deployment in a staging environment before deploying in a production setting.
 
-### 7. **Can I contribute to the development of the Serverless Image Handler?**
-   - Absolutely! We welcome contributions from the community. Please refer to the [Contributing Guidelines](CONTRIBUTING.md) for more information on how to get involved.
-
-### 8. **What are the future plans for the Serverless Image Handler?**
+### 7. **What are the future plans for the Serverless Image Handler?**
    - Check the [Roadmap](#roadmap) section for details on upcoming features and improvements. We are committed to continuously enhancing the functionality of the Serverless Image Handler based on user feedback and evolving requirements.
 
-### 9. **How can I get support or report issues?**
-   - For support or to report issues, please create a GitHub issue in this repository. You can also join our community forum [here](#) for discussions and assistance.
-
-### 10. **Is there a cost associated with using the Serverless Image Handler?**
+### 8. **Is there a cost associated with using the Serverless Image Handler?**
    - AWS services used by the Serverless Image Handler may have associated costs. Review the AWS Pricing page for each service to understand the cost implications. The solution is designed to be cost-effective with efficient serverless architecture.
 
 Feel free to reach out if you have additional questions or need further clarification.
-
 
 ## Roadmap
 
