@@ -1,0 +1,19 @@
+{
+  "name": "serverless-image-processing",
+  "version": "1.0.0",
+  "description": "The Serverless Image Handler is a versatile and scalable solution designed to streamline image processing within serverless environments. This project aims to provide a robust and efficient way to handle various image-related tasks, such as resizing, cropping, and optimizing, without the need for a dedicated server.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "sarv19",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.1658.0",
+    "jest": "^29.7.0",
+    "sharp": "^0.33.4"
+  }
+}
